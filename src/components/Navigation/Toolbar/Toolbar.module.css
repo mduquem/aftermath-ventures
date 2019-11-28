@@ -1,4 +1,5 @@
 .Toolbar {
+  position: fixed;
   height: 56px;
   width: 100%;
   align-items: center;
