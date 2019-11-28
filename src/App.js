@@ -10,7 +10,7 @@ import Backdrop from "./components/UI/Backdrop/Backdrop";
 import SideDrawer from "./components/Navigation/SideDrawer/SideDrawer";
 
 function App() {
-  const [showDrawer, setShowDrawer] = useState(true);
+  const [showDrawer, setShowDrawer] = useState(false);
 
   const sideDrawerToggle = () => {
     setShowDrawer(showDrawer => {

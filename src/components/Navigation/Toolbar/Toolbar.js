@@ -4,7 +4,7 @@ import classes from "./Toolbar.module.css";
 
 import NavigationItems from "../NavigationItems/NavigationItems";
 import Logo from "./Logo/Logo";
-import DrawerToggle from "../SideDrawer/DrawerToggle/DrawerToggle";
+import DrawerToggle from "./DrawerToggle/DrawerToggle";
 import Aftermath from "./Aftermath/Aftermath";
 
 const Toolbar = props => {
