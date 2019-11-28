@@ -11,3 +11,52 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
+
+@font-face {
+  font-family: "SourceBold";
+  src: local("SourceBold"), local("SourceBold"),
+    url("./assets/fonts/SourceCodePro-Bold.ttf") format("truetype");
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "SourceMedium";
+  src: local("SourceMedium"), local("SourceMedium"),
+    url("./assets/fonts/SourceCodePro-Medium.ttf") format("truetype");
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "SourceLight";
+  src: local("SourceLight"), local("SourceLight"),
+    url("./assets/fonts/SourceCodePro-Light.ttf") format("truetype");
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "RobotoBlack";
+  src: local("RobotoBlack"), local("RobotoBlack"),
+    url("./assets/fonts/Roboto-Black.ttf") format("truetype");
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "RobotoBold";
+  src: local("RobotoBold"), local("RobotoBold"),
+    url("./assets/fonts/Roboto-Bold.ttf") format("truetype");
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "RobotoMedium";
+  src: local("RobotoMedium"), local("RobotoMedium"),
+    url("./assets/fonts/Roboto-Medium.ttf") format("truetype");
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "RobotoLight";
+  src: local("RobotoLight"), local("RobotoLight"),
+    url("./assets/fonts/Roboto-Light.ttf") format("truetype");
+  font-display: swap;
+}

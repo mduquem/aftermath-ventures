@@ -1,0 +1,14 @@
+.Portafolio {
+  background: var(--primary-color);
+  display: flex;
+  flex-flow: column;
+}
+
+.Portafolio h1 {
+  color: var(--white-color);
+}
+
+.Portafolio ul li {
+  clear: both;
+  height: 100%;
+}

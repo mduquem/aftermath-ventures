@@ -1,0 +1,17 @@
+.Project {
+  position: relative;
+  display: flex;
+  flex-flow: column;
+  margin-right: 35px;
+}
+
+.Iphone {
+  position: absolute;
+  right: 25px;
+  top: -15px;
+}
+
+.Mac img {
+  width: 260px;
+  height: 100%;
+}

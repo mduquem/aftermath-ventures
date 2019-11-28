@@ -1,0 +1,12 @@
+.Servicios {
+  display: flex;
+  flex-flow: column;
+}
+
+.Servicio h1 {
+  font-size: 36px;
+}
+
+.Icono img {
+  margin: 30px;
+}

@@ -1,0 +1,12 @@
+.Landing {
+  text-align: center;
+}
+
+.Landing h2 {
+  margin-bottom: 150px;
+}
+
+.Landing h2 em {
+  text-decoration: line-through;
+  font-style: normal;
+}

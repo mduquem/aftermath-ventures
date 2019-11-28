@@ -1,0 +1,8 @@
+.Footer {
+  display: flex;
+  flex-flow: column;
+}
+
+.Footer h2 {
+  text-align: center;
+}
