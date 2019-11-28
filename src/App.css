@@ -27,7 +27,7 @@ h1 span {
 h2 {
   font-family: "SourceLight", sans-serif;
   font-size: 16px;
-  margin: 0 30px;
+  margin: 10px 30px;
   text-align: justify;
   line-height: 1.5;
 }
@@ -36,8 +36,15 @@ h2 strong {
   font-family: "SourceBold", sans-serif;
 }
 
+h3 {
+  font-family: "SourceLight", sans-serif;
+  font-size: 12px;
+  margin: 5px;
+}
+
 ul {
   list-style: none;
+  padding: 0;
 }
 
 button {
@@ -47,4 +54,5 @@ button {
   padding: 15px 0;
   background-color: var(--secondary-color);
   min-width: 315px;
+  border: none;
 }

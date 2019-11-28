@@ -1,8 +1,18 @@
 .Footer {
   display: flex;
   flex-flow: column;
+  margin-top: 20px;
 }
 
 .Footer h2 {
   text-align: center;
+}
+
+.Footer img {
+  margin: 5px;
+}
+
+.Redes {
+  display: flex;
+  justify-content: center;
 }

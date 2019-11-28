@@ -21,7 +21,7 @@ const Servicios = () => {
 
         <div className={classes.Icono}>
           <img
-            src={iconoUno}
+            src={iconoDos}
             alt="Empieza desde cero con tu emprendimiento o idea de negocio"
           />
         </div>
@@ -45,7 +45,7 @@ const Servicios = () => {
         </h2>
         <div className={classes.Icono}>
           <img
-            src={iconoDos}
+            src={iconoUno}
             alt="Conecta con tus clientes con una marca poderosa e innovadora"
           />
         </div>
