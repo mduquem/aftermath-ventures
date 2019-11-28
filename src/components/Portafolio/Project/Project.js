@@ -1,27 +1,14 @@
 import React from "react";
-import iphone from "../../../assets/img/iphone.png";
-import mac from "../../../assets/img/mac.png";
+
 
 import classes from "./Project.module.css";
 
-const Project = () => {
+const Project = props => {
   return (
     <div className={classes.Project}>
-      <div className={classes.Mac}>
-        <img
-          src={mac}
-          alt="Projecto de Domicilios Audiovisuales Desktop Version"
-        />
-      </div>
-      <div className={classes.Iphone}>
-        <img
-          src={iphone}
-          alt="Projecto de Domicilios Audivisuales Mobile Version"
-        />
-      </div>
-      <div className={classes.Logo}>Logo</div>
+<img src={props.img} alt="Desarrolla tu projecto con Aftermath Ventures y entra en la ola del crecimiento exponencial" />
     </div>
-  );
+   )
 };
 
 export default Project;
