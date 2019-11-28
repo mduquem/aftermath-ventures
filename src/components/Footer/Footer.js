@@ -9,7 +9,7 @@ const Footer = () => {
   return (
     <div className={classes.Footer}>
       <h3>© 2019 Aftermath Ventures</h3>
-      <h3>aftermathventures@gmail.com</h3>
+      <h3>santiago.aftermath@gmail.com</h3>
       <h3>Whatsapp: +57 311 231-1571</h3>
       <h3>Medellín, Colombia</h3>
 
@@ -31,7 +31,7 @@ const Footer = () => {
           </a>
         </li>
         <li>
-          <a href="https://www.instagram.com/aftermathventures/">
+          <a href="https://www.facebook.com/aftermathschool/">
             <img
               src={facebook}
               alt="Síguenos en Facebook para acceder al mejor contenido de emprendimiento y tecnología en Colombia y Latinoamerica"
