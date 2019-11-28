@@ -10,7 +10,7 @@ const Servicios = () => {
     <div className={classes.Servicios}>
       <div className={classes.Servicio}>
         <h1>
-          Empieza desde cero<span>.</span>
+          0<span>/ </span>Empieza desde cero<span>.</span>
         </h1>
 
         <h2>
@@ -21,7 +21,7 @@ const Servicios = () => {
 
         <div className={classes.Icono}>
           <img
-            src={iconoDos}
+            src={iconoUno}
             alt="Empieza desde cero con tu emprendimiento o idea de negocio"
           />
         </div>
@@ -35,7 +35,7 @@ const Servicios = () => {
       </div>
       <div className={classes.Servicio}>
         <h1>
-          Conecta con tus clientes<span>.</span>
+          1<span>/</span> Conecta con tus clientes<span>.</span>
         </h1>
 
         <h2>
@@ -45,7 +45,7 @@ const Servicios = () => {
         </h2>
         <div className={classes.Icono}>
           <img
-            src={iconoUno}
+            src={iconoDos}
             alt="Conecta con tus clientes con una marca poderosa e innovadora"
           />
         </div>
@@ -57,7 +57,7 @@ const Servicios = () => {
       </div>
       <div className={classes.Servicio}>
         <h1>
-          Desarrolla tu futuro<span>.</span>
+          2<span>/ </span>Desarrolla tu futuro<span>.</span>
         </h1>
         <h2>
           El siguiente paso es el desarrollo y la implementación de tu MVP.

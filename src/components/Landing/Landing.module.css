@@ -3,6 +3,10 @@
   margin-top: 90px;
 }
 
+.Landing h1 {
+  margin-bottom: 0;
+}
+
 .Landing h2 {
   margin-bottom: 100px;
 }

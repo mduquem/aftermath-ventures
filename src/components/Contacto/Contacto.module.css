@@ -9,3 +9,7 @@
   text-align: center;
   color: var(--white-color);
 }
+
+.Contacto button {
+  margin-top: 0;
+}
