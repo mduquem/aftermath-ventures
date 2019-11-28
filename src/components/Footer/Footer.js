@@ -10,29 +10,33 @@ const Footer = () => {
     <div className={classes.Footer}>
       <h3>© 2019 Aftermath Ventures</h3>
       <h3>aftermathventures@gmail.com</h3>
-      <h3>Whatsapp: +57 311 2311571</h3>
+      <h3>Whatsapp: +57 311 231-1571</h3>
       <h3>Medellín, Colombia</h3>
 
       <ul className={classes.Redes}>
         <li>
-          <img
-            src={whatsapp}
-            alt="Comunícate con nosotros por Whatsapp para desarrollar tu emprendimiento o tu página web"
-          />
+          <a href="https://wa.me/573112311571">
+            <img
+              src={whatsapp}
+              alt="Comunícate con nosotros por Whatsapp para desarrollar tu emprendimiento o tu página web"
+            />
+          </a>
         </li>
         <li>
-          {" "}
-          <img
-            src={instagram}
-            alt="Síguenos en Instagram para acceder al mejor contenido de emprendimiento y tecnología en Colombia y Latinoamerica"
-          />
+          <a href="https://www.instagram.com/aftermathventures/">
+            <img
+              src={instagram}
+              alt="Síguenos en Instagram para acceder al mejor contenido de emprendimiento y tecnología en Colombia y Latinoamerica"
+            />
+          </a>
         </li>
         <li>
-          {" "}
-          <img
-            src={facebook}
-            alt="Síguenos en Facebook para acceder al mejor contenido de emprendimiento y tecnología en Colombia y Latinoamerica"
-          />
+          <a href="https://www.instagram.com/aftermathventures/">
+            <img
+              src={facebook}
+              alt="Síguenos en Facebook para acceder al mejor contenido de emprendimiento y tecnología en Colombia y Latinoamerica"
+            />
+          </a>
         </li>
       </ul>
     </div>

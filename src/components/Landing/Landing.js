@@ -14,7 +14,9 @@ const Landing = () => {
         de tu emprendimiento.
       </h2>
 
-      <button>EMPIEZA HOY</button>
+      <a href="https://wa.me/573112311571">
+        <button>EMPIEZA HOY</button>
+      </a>
     </div>
   );
 };
