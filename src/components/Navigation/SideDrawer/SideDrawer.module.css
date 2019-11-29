@@ -19,7 +19,7 @@
   width: 60%;
 }
 
-@media (min-width: 768px) {
+@media (min-width: 1000px) {
   .SideDrawer {
     display: none;
   }

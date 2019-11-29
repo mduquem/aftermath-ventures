@@ -14,7 +14,7 @@
   margin-top: 0;
 }
 
-@media (min-width: 768px) {
+@media (min-width: 1000px) {
   .Contacto h1 {
     width: 600px;
     margin: 100px auto 70px auto;

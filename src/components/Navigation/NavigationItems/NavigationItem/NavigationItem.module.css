@@ -28,7 +28,7 @@
   color: var(--primary-color);
 }
 
-@media (min-width: 768px) {
+@media (min-width: 1000px) {
   .NavigationItem {
     margin: 20px;
     padding: 0;

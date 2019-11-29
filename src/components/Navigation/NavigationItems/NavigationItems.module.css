@@ -13,7 +13,7 @@
   padding: 0;
 }
 
-@media (min-width: 768px) {
+@media (min-width: 1000px) {
   .NavigationItems ul {
     display: flex;
     flex-flow: row;

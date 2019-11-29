@@ -16,7 +16,7 @@
   font-style: normal;
 }
 
-@media (min-width: 768px) {
+@media (min-width: 1000px) {
   .Landing {
     width: 600px;
     margin: 150px auto 50px auto;
