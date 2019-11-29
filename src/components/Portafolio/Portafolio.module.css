@@ -12,3 +12,13 @@
   clear: both;
   height: 100%;
 }
+
+@media (min-width: 768px) {
+  .Portafolio {
+    padding: 30px auto;
+  }
+  .List {
+    display: flex;
+    justify-content: space-around;
+  }
+}

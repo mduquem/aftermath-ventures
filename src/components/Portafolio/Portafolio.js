@@ -10,7 +10,7 @@ const Portafolio = () => {
   return (
     <div className={classes.Portafolio}>
       <h1>Portafolio</h1>
-      <ul>
+      <ul className={classes.List}>
         <li>
           <Project
             img={domicilios}

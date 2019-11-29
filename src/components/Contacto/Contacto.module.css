@@ -13,3 +13,13 @@
 .Contacto button {
   margin-top: 0;
 }
+
+@media (min-width: 768px) {
+  .Contacto h1 {
+    width: 600px;
+    margin: 100px auto 70px auto;
+  }
+  .Contacto button {
+    margin-bottom: 100px;
+  }
+}

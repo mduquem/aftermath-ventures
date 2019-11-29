@@ -25,13 +25,6 @@ const Servicios = () => {
             alt="Empieza desde cero con tu emprendimiento o idea de negocio"
           />
         </div>
-
-        <h2>
-          Por lo tanto, una planeación efectiva del{" "}
-          <strong>Minimum Viable Product (MVP)</strong>en la que se minimicen el
-          tiempo y el dinero que inviertes en tu emprendimiento es{" "}
-          <strong>el primer paso.</strong>
-        </h2>
       </div>
       <div className={classes.Servicio}>
         <h1>
@@ -49,11 +42,6 @@ const Servicios = () => {
             alt="Conecta con tus clientes con una marca poderosa e innovadora"
           />
         </div>
-        <h2>
-          En Aftermath Ventures te ofrecemos el diseño de una marca que te
-          permita desarrollar una personalidad original con la que tu cliente se
-          identifique fácilmente .
-        </h2>
       </div>
       <div className={classes.Servicio}>
         <h1>
@@ -70,11 +58,6 @@ const Servicios = () => {
             alt="Desarrolla tu futuro al tener tu negocio en la web y accede a clientes en todo el mundo"
           />
         </div>
-        <h2>
-          En <strong>Aftermath Ventures</strong> te proponemos toda la
-          implementación de tu emprendimiento con las más modernas metodologías
-          de desarrollo ágil.
-        </h2>
       </div>
     </div>
   );

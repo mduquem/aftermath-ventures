@@ -10,3 +10,14 @@
 .Icono img {
   margin: 30px;
 }
+
+@media (min-width: 768px) {
+  .Servicios {
+    flex-flow: row;
+    padding: 30px 50px;
+  }
+
+  .Servicio {
+    padding: 0 50px;
+  }
+}

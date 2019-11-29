@@ -8,10 +8,12 @@ import classes from "./Footer.module.css";
 const Footer = () => {
   return (
     <div className={classes.Footer}>
-      <h3>© 2019 Aftermath Ventures</h3>
-      <h3>aftermathventures.col@gmail.com</h3>
-      <h3>Whatsapp: +57 311 231-1571</h3>
-      <h3>Medellín, Colombia</h3>
+      <div>
+        <h3>© 2019 Aftermath Ventures</h3>
+        <h3>aftermathventures.col@gmail.com</h3>
+        <h3>Whatsapp: +57 311 231-1571</h3>
+        <h3>Medellín, Colombia</h3>
+      </div>
 
       <ul className={classes.Redes}>
         <li>

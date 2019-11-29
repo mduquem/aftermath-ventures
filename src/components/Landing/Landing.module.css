@@ -15,3 +15,10 @@
   text-decoration: line-through;
   font-style: normal;
 }
+
+@media (min-width: 768px) {
+  .Landing {
+    width: 600px;
+    margin: 150px auto 50px auto;
+  }
+}
