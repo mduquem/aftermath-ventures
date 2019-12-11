@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import { RevealGlobalStyles } from "react-genie";
 import "./App.css";
 import Landing from "./components/Landing/Landing";
 import Portafolio from "./components/Portafolio/Portafolio";
@@ -19,6 +20,7 @@ function App() {
   };
   return (
     <div className="App">
+      <RevealGlobalStyles />
       {showDrawer ? (
         <div>
           <Backdrop show clicked={sideDrawerToggle} />

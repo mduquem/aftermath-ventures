@@ -1,4 +1,6 @@
 import React from "react";
+import { Reveal } from "react-genie";
+
 import classes from "./Portafolio.module.css";
 import Project from "./Project/Project";
 
@@ -12,16 +14,22 @@ const Portafolio = () => {
       <h1>Portafolio</h1>
       <ul className={classes.List}>
         <li>
-          <Project
-            img={domicilios}
-            link="https://domiciliosaudiovisuales.com"
-          />
+          <Reveal>
+            <Project
+              img={domicilios}
+              link="https://domiciliosaudiovisuales.com"
+            />
+          </Reveal>
         </li>
         <li>
-          <Project img={aftermath} link="https://aftermathschool.co" />
+          <Reveal>
+            <Project img={aftermath} link="https://aftermathschool.co" />
+          </Reveal>
         </li>
         <li>
-          <Project img={migrato} link="https://migrato.co" />
+          <Reveal>
+            <Project img={migrato} link="https://migrato.co" />
+          </Reveal>
         </li>
       </ul>
     </div>
