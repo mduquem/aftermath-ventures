@@ -3,6 +3,10 @@
   margin-top: 90px;
 }
 
+.Logo {
+  display: none;
+}
+
 .Landing h1 {
   margin-bottom: 0;
 }

@@ -1,13 +1,12 @@
-import React from "react";
-import { Reveal, Animation } from "react-genie";
+import React from 'react';
+import { Reveal, Animation } from 'react-genie';
 
-import classes from "./Landing.module.css";
+import classes from './Landing.module.css';
 
 const Landing = () => {
   return (
     <div className={classes.Landing}>
       <div className={classes.Lead}>
-        {" "}
         <h1>
           Desarrolla tu futuro hoy<span>.</span>
         </h1>
@@ -18,9 +17,10 @@ const Landing = () => {
             cada etapa de tu emprendimiento.
           </Reveal>
         </h2>
-        <a href="https://wa.me/573112311571">
+
+        <a href="mailto:aftermathventures.col@gmail.com">
           <Reveal animation={Animation.BounceInLeft}>
-            <button>EMPIEZA HOY</button>
+            <button>ESCRÍBENOS</button>
           </Reveal>
         </a>
       </div>

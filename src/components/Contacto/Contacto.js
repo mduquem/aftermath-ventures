@@ -1,7 +1,7 @@
-import React from "react";
-import { AnimatedTitle, Reveal, Animation } from "react-genie";
+import React from 'react';
+import { AnimatedTitle, Reveal, Animation } from 'react-genie';
 
-import classes from "./Contacto.module.css";
+import classes from './Contacto.module.css';
 
 const Contacto = () => {
   return (
@@ -11,10 +11,10 @@ const Contacto = () => {
           ¿Qué esperas para entrar en la era digital?
         </AnimatedTitle>
       </h1>
-      <a href="https://wa.me/573112311571">
+      <a href="mailto:aftermathventures.col@gmail.com">
         <Reveal animation={Animation.BounceInRight}>
-          {" "}
-          <button>EMPIEZA HOY</button>
+          {' '}
+          <button>ESCRÍBENOS</button>
         </Reveal>
       </a>
     </div>
