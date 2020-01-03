@@ -24,6 +24,11 @@ const Landing = () => {
           </Reveal>
         </a>
       </div>
+      {/* AQUI TOCA PONER OTRO LLAMADO A LA ACCION DISTINTO Toca incluir opt in form y contact form */}
+      {/* <div>
+        <input placeholder="Ingresa tu correo" />
+        <button>Enviar</button>
+      </div> */}
     </div>
   );
 };

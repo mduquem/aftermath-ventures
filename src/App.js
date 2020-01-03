@@ -1,14 +1,13 @@
-import React, { useState } from "react";
-import { RevealGlobalStyles } from "react-genie";
-import "./App.css";
-import Landing from "./components/Landing/Landing";
-import Portafolio from "./components/Portafolio/Portafolio";
-import Servicios from "./components/Servicios/Servicios";
-import Contacto from "./components/Contacto/Contacto";
-import Footer from "./components/Footer/Footer";
-import Toolbar from "./components/Navigation/Toolbar/Toolbar";
-import Backdrop from "./components/UI/Backdrop/Backdrop";
-import SideDrawer from "./components/Navigation/SideDrawer/SideDrawer";
+import React, { useState } from 'react';
+import { Switch, Route } from 'react-router-dom';
+import { RevealGlobalStyles } from 'react-genie';
+import './App.css';
+import Main from './components/Main/Main';
+import Blog from './components/Blog/Blog';
+import Footer from './components/Footer/Footer';
+import Toolbar from './components/Navigation/Toolbar/Toolbar';
+import Backdrop from './components/UI/Backdrop/Backdrop';
+import SideDrawer from './components/Navigation/SideDrawer/SideDrawer';
 
 function App() {
   const [showDrawer, setShowDrawer] = useState(false);
@@ -18,6 +17,7 @@ function App() {
       return !showDrawer;
     });
   };
+
   return (
     <div className="App">
       <RevealGlobalStyles />
@@ -29,18 +29,10 @@ function App() {
       ) : null}
       <Toolbar showDrawer={showDrawer} setShowDrawer={setShowDrawer} />
       <main>
-        <section id="Landing">
-          <Landing />
-        </section>
-        <section id="Portafolio">
-          <Portafolio />
-        </section>
-        <section id="Servicios">
-          <Servicios />
-        </section>
-        <section id="Contacto">
-          <Contacto />
-        </section>
+        <Switch>
+          <Route exact path="/blog" component={Blog} />
+          <Route exact path="/" component={Main} />
+        </Switch>
       </main>
       <footer>
         <Footer />
