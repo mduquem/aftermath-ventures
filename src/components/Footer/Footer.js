@@ -10,8 +10,7 @@ const Footer = () => {
     <div className={classes.Footer}>
       <div>
         <h3>
-          Copyright © {new Date().getFullYear()} Aftermath Ventures. Todos los
-          derechos reservados.
+        Todos los derechos reservados © {new Date().getFullYear()} Aftermath Ventures. 
         </h3>
         <h3>aftermathventures.col@gmail.com</h3>
         <h3>Whatsapp: +57 311 231-1571</h3>
