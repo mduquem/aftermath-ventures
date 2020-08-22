@@ -26,7 +26,7 @@ const Footer = () => {
         </li>
         <li>
           <a href="https://twitter.com/miguelduque">
-            <img src={twitter} alt="" />
+            <img src={whatsapp} alt="" />
           </a>
         </li>
       </ul>
