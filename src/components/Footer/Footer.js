@@ -13,7 +13,7 @@ const Footer = () => {
           Todos los derechos reservados © {new Date().getFullYear()} Aftermath
           Ventures.
         </h3>
-        <h3>contacto@aftermathventures.com</h3>
+        <h3>desarrollo@aftermathventures.com</h3>
         <h3>Whatsapp: +57 310 827-4440</h3>
         <h3>Colombia</h3>
       </div>
@@ -21,7 +21,12 @@ const Footer = () => {
       <ul className={classes.Redes}>
         <li>
           <a href="https://www.linkedin.com/company/aftermathventures">
-            <img src={instagram} alt="" />
+            <img src={facebook} alt="" />
+          </a>
+        </li>
+        <li>
+          <a href="https://twitter.com/miguelduque">
+            <img src={twitter} alt="" />
           </a>
         </li>
       </ul>
