@@ -18,28 +18,19 @@
   </head>
   <body>
     <div id="root"></div>
-    <!-- The core Firebase JS SDK is always required and must be listed first -->
-    <script src="https://www.gstatic.com/firebasejs/7.5.2/firebase-app.js"></script>
-
-    <!-- TODO: Add SDKs for Firebase products that you want to use
-     https://firebase.google.com/docs/web/setup#available-libraries -->
-    <script src="https://www.gstatic.com/firebasejs/7.5.2/firebase-analytics.js"></script>
-
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script
+      async
+      src="https://www.googletagmanager.com/gtag/js?id=UA-176262963-1"
+    ></script>
     <script>
-      // Your web app's Firebase configuration
-      var firebaseConfig = {
-        apiKey: 'AIzaSyBuhCi9akgvgIraflxvvsxC4bGJ-ENRn94',
-        authDomain: 'aftermath-ventures.firebaseapp.com',
-        databaseURL: 'https://aftermath-ventures.firebaseio.com',
-        projectId: 'aftermath-ventures',
-        storageBucket: 'aftermath-ventures.appspot.com',
-        messagingSenderId: '229047714371',
-        appId: '1:229047714371:web:f7b733ebef83d5e7bf8af6',
-        measurementId: 'G-TJGGHK4HRM'
-      };
-      // Initialize Firebase
-      firebase.initializeApp(firebaseConfig);
-      firebase.analytics();
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag('js', new Date());
+
+      gtag('config', 'UA-176262963-1');
     </script>
   </body>
 </html>
