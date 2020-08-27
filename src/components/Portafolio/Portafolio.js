@@ -6,6 +6,7 @@ import Project from './Project/Project';
 
 import domicilios from '../../assets/img/domicilios.png';
 import migrato from '../../assets/img/migrato.png';
+import loadup from '../../assets/img/loadup.png';
 
 const Portafolio = () => {
   return (
@@ -24,6 +25,11 @@ const Portafolio = () => {
         <li>
           <Reveal>
             <Project img={migrato} link="https://migrato.co" />
+          </Reveal>
+        </li>
+        <li>
+          <Reveal>
+            <Project img={loadup} link="https://loadup.today" />
           </Reveal>
         </li>
       </ul>
