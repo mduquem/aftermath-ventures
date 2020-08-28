@@ -3,6 +3,8 @@ import React from 'react';
 import whatsapp from '../../assets/svg/whatsapp.svg';
 import instagram from '../../assets/svg/instagram.svg';
 import facebook from '../../assets/svg/facebook.svg';
+import linkedin from '../../assets/svg/linkedin.svg';
+
 import classes from './Footer.module.css';
 
 const Footer = () => {
@@ -18,14 +20,14 @@ const Footer = () => {
       </div>
 
       <ul className={classes.Redes}>
-        <li>
+        {/* <li>
           <a href="https://www.linkedin.com/company/aftermathventures">
             <img src={facebook} alt="" />
           </a>
-        </li>
+        </li> */}
         <li>
-          <a href="https://twitter.com/miguelduque">
-            <img src={whatsapp} alt="" />
+          <a href="https://www.linkedin.com/company/aftermathventures">
+            <img src={linkedin} alt="" />
           </a>
         </li>
       </ul>
