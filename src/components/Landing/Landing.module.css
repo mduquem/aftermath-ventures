@@ -20,9 +20,33 @@
   font-style: normal;
 }
 
+.FormGroup {
+  align-items: center;
+  margin: 20px;
+}
+
+.FormControl {
+  height: 56px;
+  width: 275px;
+}
+.FormControl::placeholder {
+  font-family: 'SourceBold';
+}
+
+.InputGroupText {
+  background-color: #f7fafc !important;
+}
+
+button {
+  margin: 10px;
+}
+
 @media (min-width: 1000px) {
   .Landing {
     width: 600px;
     margin: 150px auto 50px auto;
+  }
+  .FormGroup {
+    display: flex;
   }
 }

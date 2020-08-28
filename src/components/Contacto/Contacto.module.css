@@ -1,26 +1,33 @@
 .Contacto {
-   display: flex;
-   flex-flow: column;
-   background: var(--primary-color);
-   margin-top: 20px;
+  display: flex;
+  flex-flow: column;
+  background: var(--primary-color);
+  margin-top: 20px;
 }
 
 .Contacto h1 {
-   text-align: center;
-   color: var(--white-color);
+  text-align: center;
+  color: var(--white-color);
 }
 
 .Contacto button {
-   margin-top: 0;
-   color: var(--white-color);
+  margin-top: 0;
+  color: var(--white-color);
+}
+
+.Contacto h3 {
+  text-align: center;
+  font-size: 16px;
+  color: white;
+  font-weight: bold;
 }
 
 @media (min-width: 1000px) {
-   .Contacto h1 {
-      width: 600px;
-      margin: 100px auto 70px auto;
-   }
-   .Contacto button {
-      margin-bottom: 100px;
-   }
+  .Contacto h1 {
+    width: 600px;
+    margin: 100px auto 70px auto;
+  }
+  .Contacto button {
+    margin-bottom: 100px;
+  }
 }

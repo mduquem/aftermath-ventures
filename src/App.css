@@ -1,64 +1,65 @@
 :root {
-   --primary-color: #e95959;
-   --secondary-color: #4bb5f0;
-   --tertiary-color: #f4dbdb;
-   --four-color: #ab1008;
-   --five-color: #c03030;
-   --black-color: #000000;
-   --white-color: #ffff;
+  --primary-color: #e95959;
+  --secondary-color: #4bb5f0;
+  --tertiary-color: #f4dbdb;
+  --four-color: #ab1008;
+  --five-color: #c03030;
+  --black-color: #000000;
+  --white-color: #ffff;
 }
 
 .App {
-   text-align: center;
-   font-family: 'RobotoMedium', sans-serif;
+  text-align: center;
+  font-family: 'RobotoMedium', sans-serif;
 }
 
 h1 {
-   font-family: 'RobotoBlack', sans-serif;
-   font-size: 42px;
-   margin: 30px 40px 20px 30px;
-   text-align: left;
+  font-family: 'RobotoBlack', sans-serif;
+  font-size: 42px;
+  margin: 30px 40px 20px 30px;
+  text-align: left;
 }
 
 h1 span {
-   color: var(--primary-color);
+  color: var(--primary-color);
 }
 
 h2 {
-   font-family: 'SourceLight', sans-serif;
-   font-size: 16px;
-   margin: 20px 30px;
-   text-align: justify;
-   line-height: 1.5;
+  font-family: 'SourceLight', sans-serif;
+  font-size: 16px;
+  margin: 20px 30px;
+  text-align: justify;
+  line-height: 1.5;
 }
 
 h2 strong {
-   font-family: 'SourceBold', sans-serif;
+  font-family: 'SourceBold', sans-serif;
 }
 
 h3 {
-   font-family: 'SourceLight', sans-serif;
-   font-size: 12px;
-   margin: 5px;
+  font-family: 'SourceLight', sans-serif;
+  font-size: 12px;
+  margin: 5px;
 }
 
 ul {
-   list-style: none;
-   padding: 0;
+  list-style: none;
+  padding: 0;
 }
 
 button {
-   font-family: 'SourceBold', sans-serif;
-   font-size: 16px;
-   margin: 30px;
-   padding: 15px 0;
-   background-color: var(--secondary-color);
-   min-width: 275px;
-   border: none;
-   cursor: pointer;
-   color: var(--white-color);
+  font-family: 'SourceBold', sans-serif;
+  font-size: 16px;
+  margin: 30px;
+  padding: 15px 0;
+  background-color: var(--secondary-color);
+  min-width: 275px;
+  border: none;
+  cursor: pointer;
+  color: var(--white-color);
+  border-radius: 8px;
 }
 
 img {
-   cursor: pointer;
+  cursor: pointer;
 }
