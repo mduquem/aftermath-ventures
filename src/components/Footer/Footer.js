@@ -11,7 +11,6 @@ const Footer = () => {
       <div>
         <h3>desarrollo@aftermathventures.com</h3>
         <h3>Whatsapp: +57 310 827-4440</h3>
-        <h3>Colombia</h3>
         <h3>
           Todos los derechos reservados © {new Date().getFullYear()} Aftermath
           Ventures.
