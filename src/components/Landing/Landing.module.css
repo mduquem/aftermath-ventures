@@ -48,7 +48,7 @@ button {
 	margin: 10px;
 }
 
-@media (min-width: 1000px) {
+@media (min-width: 1500px) {
 	.Landing {
 		width: 100%;
 		display: flex;
@@ -60,5 +60,11 @@ button {
 	}
 	button {
 		margin: 10px 0;
+	}
+}
+
+@media (min-width: 770px) and (max-width: 1500px) {
+	.Landing {
+		padding: 20px 100px;
 	}
 }
