@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import { Reveal, Animation } from 'react-genie';
 import axios from 'axios';
 
+import Logo from '../../components/Navigation/Toolbar/Logo/Logo';
 import classes from './Landing.module.css';
 import emailSvg from '../../assets/svg/email.svg';
 
@@ -43,7 +44,7 @@ const Landing = () => {
 				/>
 			</div>
 			<Reveal animation={Animation.BounceInLeft}>
-				<button onClick={submitForm}>Nosotros te escribimos</button>
+				<button onClick={submitForm}>Ponte en contacto</button>
 			</Reveal>
 		</div>
 	);
@@ -83,6 +84,7 @@ const Landing = () => {
 
 				{formContent}
 			</div>
+			<Logo />
 			{/* AQUI TOCA PONER OTRO LLAMADO A LA ACCION DISTINTO Toca incluir opt in form y contact form */}
 		</div>
 	);
