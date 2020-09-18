@@ -13,7 +13,7 @@ const Landing = () => {
 	const submitForm = async () => {
 		try {
 			const response = await axios.post(
-				'https://api.airtable.com/v0/appwUsJBXmOq5N6c3/emails?api_key=keyVhyObfMsV33jCY',
+				`https://api.airtable.com/v0/appwUsJBXmOq5N6c3/emails?api_key=${process.env.API_KEY}`,
 				{ fields: { email, createdAt: TODAY } }
 			);
 
