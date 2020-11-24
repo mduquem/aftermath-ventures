@@ -84,7 +84,7 @@ const Landing = () => {
 
 				{formContent}
 			</div>
-			<Logo />
+			{/* <Logo /> */}
 			{/* AQUI TOCA PONER OTRO LLAMADO A LA ACCION DISTINTO Toca incluir opt in form y contact form */}
 		</div>
 	);
